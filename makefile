@@ -1,8 +1,8 @@
 run: 
-	./gradlew run
+	java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
 
 test:
-	java -jar junit-platform-console-standalone-1.9.3.jar --class-path target  --scan-class-path
+	mvn test;
 
 build:
-	./gradlew build
+	mvn package
