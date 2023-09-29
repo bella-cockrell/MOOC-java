@@ -21,7 +21,6 @@ public class App
             }
         }
 
-        //cannot compile
         threadMessage("Starting MessageLoop thread");
         long startTime = System.currentTimeMillis();
         Thread t = new Thread(new MessageLoop());
