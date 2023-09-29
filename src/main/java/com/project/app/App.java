@@ -10,7 +10,7 @@ public class App
     public static void main( String[] args ) throws InterruptedException
     {       
 
-        long patience = 1000 * 60 * 60;
+        long patience = 1 * 60 * 60; //patience of 3600 milliseconds
 
         if (args.length > 0) {
             try {
